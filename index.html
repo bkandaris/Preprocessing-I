@@ -7,6 +7,7 @@
   <title>My Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +15,68 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+    <nav>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </nav>
+
+    <header>
+      <img src="https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Profile Image" class="profile" >
+      <div class="title">
+        <h1>John Doe - Web Dev</h1>
+        <p>I like to code!</p>
+        <p>Just press the button to start signing up!</p>
+        <button>Let's combine forces!</button>
+      </div>
+    </header>
+
+    <div class="mid">
+      <main>
+          <h2>About me</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam quaerat, maxime consequatur cum ad blanditiis recusandae quos rerum modi sunt iusto quod ipsam. Tempora non accusantium mollitia, nostrum accusamus dolor quae, placeat, odit maiores fugiat repellat! Esse culpa corrupti veniam.</p>
+      </main>
+      
+      <section class="tech">
+        <h2>Technologies</h2>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>LESS</p>
+        <p>JS</p>
+        <p>React</p>
+      </section>
+    </div>
+
+    <div class="bot">
+      <h2>Work History</h2>
+      <table class="work">
+        <tr>
+          <th>Years</th>
+          <th>Company</th>
+          <th>Title</th>
+        </tr>
+        <tr>
+          <th>3</th>
+          <th>Apple</th>
+          <th>Jr Developer</th>
+        </tr>
+        <tr>
+          <th>4</th>
+          <th>Amazon</th>
+          <th>Sr Developer</th>
+        </tr>
+        <tr>
+          <th>1</th>
+          <th>Microsoft</th>
+          <th>Software Engineer</th>
+        </tr>
+      </table>
+    </div>
+    <footer>Copyright Lambda 2019</footer>
+
+    
+  </div>
 </body>
 </html>
