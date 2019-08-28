@@ -1,1 +1,295 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1.2;
+}
+nav {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 20px 20px;
+  background: blue;
+}
+nav a {
+  font-size: 2rem;
+  color: orange;
+  margin: 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: yellow;
+}
+header {
+  width: 80%;
+  margin: 20px auto;
+  background: black;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+header img {
+  width: 250px;
+  margin: 30px 30px;
+  border-radius: 30px;
+  border: 2px yellow solid;
+}
+header .title {
+  display: flex;
+  flex-direction: column;
+}
+header h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px;
+  color: yellow;
+}
+header p {
+  text-align: center;
+  color: white;
+  font-size: 1.7rem;
+  padding: 10px;
+}
+header button {
+  height: 40px;
+  width: 200px;
+  margin: 10px auto;
+  background: white;
+  border: 2px solid red;
+  border-radius: 50px;
+}
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+  }
+}
+.mid {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background: black;
+  color: white;
+  font-size: 1.7rem;
+}
+.mid main {
+  width: 45%;
+}
+.mid main h2 {
+  margin: 10px 0px;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  border: 3px groove yellow;
+  border-radius: 10px;
+}
+.mid .tech {
+  width: 45%;
+  text-align: center;
+}
+.mid h2 {
+  margin: 10px 0px;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  border: 3px groove yellow;
+  border-radius: 10px;
+}
+.mid p {
+  margin: 20px 10px;
+}
+@media (max-width: 500px) {
+  .mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+  }
+}
+.bot {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: black;
+  width: 80%;
+  margin: 20px auto;
+}
+.bot h2 {
+  margin: 10px 0px;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  border: 3px groove yellow;
+  border-radius: 10px;
+  width: 200px;
+  margin: 10px auto;
+}
+.bot table {
+  background: crimson;
+  margin: 10px 0px;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  border: 3px groove yellow;
+  border-radius: 10px;
+}
+.bot th {
+  border: 1px solid black;
+}
+@media (max-width: 500px) {
+  .bot {
+    width: 98%;
+  }
+}
+footer {
+  width: 70%;
+  margin: 10px 0px;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  border: 3px groove yellow;
+  border-radius: 10px;
+  color: black;
+  margin: 10px auto;
+  font-family: 'Anton', sans-serif;
+}
